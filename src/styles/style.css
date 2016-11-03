@@ -1,0 +1,150 @@
+@font-face {
+font-family: Playfair-Display;
+src: url(../fonts/PlayfairDisplay-regular.ttf) format("truetype");
+} 
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Light.ttf) format("truetype");
+}
+.header {
+    
+}
+
+.logo {
+    
+}
+
+.logo__image {
+    
+}
+
+.navigation {
+    
+}
+
+.navigation__item {
+    
+}
+
+.main {
+    
+}
+
+.main__image {
+    
+}
+
+.aside {
+    
+}
+
+.aside-column {
+    
+}
+
+.about {
+    
+}
+
+.about__image {
+    
+}
+
+.about__text {
+    
+}
+
+.about__header {
+    
+}
+
+.about__article {
+    
+}
+
+.share-icons {
+    
+}
+share-icons__text {
+    
+}
+.share-icons__item {
+    
+}
+
+.top-posts {
+    
+}
+
+.top-posts__header {
+    
+}
+
+.post-reference {
+    
+}
+.post-reference__marker-image {
+    
+}
+.post-reference__marker-text {
+    
+}
+.post-reference__comment {
+    
+}
+.banner {
+    
+}
+.banner__image {
+    
+}
+.banner__size {
+    
+}
+.banner__spot {
+    
+}
+.section {
+    
+}
+.section__name {
+    
+}
+.content {
+    
+}
+.content__header {
+    
+}
+.content__text {
+    
+}
+
+.content__text_theme_simple {
+    
+}
+.content__text_theme_italic {
+    
+}
+.content__image {
+    
+}
+
+.footer {
+    
+}
+.footer__content {
+    
+}
+.footer__ref {
+    
+}
+.follow-bar {
+    
+}
+.follow-bar__text {
+    
+}
+.follow-bar__icon {
+    
+}
