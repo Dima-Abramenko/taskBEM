@@ -18,24 +18,24 @@ src: url(../fonts/PlayfairDisplay-regular.ttf) format("truetype");
     margin: 0 auto;
 }
 .logo {
-    float: left;
 }
 a {
     text-decoration: none;
-    position:relative;
+}
+a:visited {
+    color: #626000;
 }
 .navigation {
     margin: 0;
     padding: 4px;
-    float: right;
+    float: right;   
+    
 }
 .navigation__item  {
     display: inline;
     margin-left: 100px;
     padding: 3px; 
-}
- .navigation__item:visited { 
-      color: #626000;
+   
 }
 .navigation__item :hover {
     text-decoration:overline; 
@@ -45,10 +45,11 @@ a {
     bottom: 5px;  
 }
 .navigation__ref {
-    font-family: Playfair-Display, 'Playfair Display', serif;
+    font-family: Playfair-Display, serif;
     font-size: 14px;
     color: #626262;  
     text-transform: uppercase;
+    position: relative;
 }
 .main {
     padding: 25px;
@@ -71,7 +72,7 @@ a {
     margin-bottom: 100px;
 }
 .about__text {
-    font-family: Playfair-Display, 'Playfair Display', serif;
+    font-family: Playfair-Display, serif;
     color: #626262;
 }
 .about__header {
@@ -79,7 +80,7 @@ a {
     font-weight: 400;
 }
 .about__article {
-    font-size: 13px;
+    font-size: 12px;
     padding-bottom: 10px;
 }
 .share {
@@ -90,7 +91,7 @@ a {
     float: left;
 }
 .share-icons__text {
-    font-family: Ubuntu, 'Ubuntu';
+    font-family: Ubuntu;
     font-size: 12px;
     color: #b4ad9e;
     padding-right: 20px;
@@ -99,11 +100,17 @@ a {
 .share-icons__item {
     margin-right: 10px; 
 }
+.share-icons__ref {
+     position: relative;
+}
+.share-icons__ref:hover{
+    bottom: 5px;
+}
 .top-posts {
     margin-bottom: 50px;
 }
 .top-posts__header {
-    font-family: Ubuntu, 'Ubuntu';
+    font-family: Ubuntu;
     font-size: 14px;
     color: #b4ad9e;
     padding-bottom: 20px;
@@ -111,26 +118,28 @@ a {
 }
 .post-reference {
      padding-bottom: 20px;
+    padding-left: 10px;
 }
-.post-reference__marker-image {
-    padding-right: 20px; 
+.post-reference__marker {
+    color: #b4ad9e;
+    padding-bottom: 20px;
 }
 .post-reference__marker-text {
-    font-family: Playfair-Display, 'Playfair Display', serif;
+    font-family: Playfair-Display, serif;
     font-size: 16px;
     color: #626262;
 }
 .post-reference__comment {
-    font-family: Ubuntu, 'Ubuntu';
+    font-family: Ubuntu;
     font-size: 12px;
     color: #b4ad9e;
     padding-top: 10px;
-    padding-left: 25px;
+    padding-left: 10px;
     text-transform: uppercase;
 }
 .banner {
     text-align: center;
-    font-family: Ubuntu, 'Ubuntu';
+    font-family: Ubuntu;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -150,13 +159,13 @@ a {
     padding-left: 50px;
 }
 .section__name {
-    font-family: Ubuntu, 'Ubuntu';
-    font-size: 12px;
+    font-family: Ubuntu;
+    font-size: 14px;
     color: #b4ad9e;
     text-transform: uppercase;
 }
 .content__header {
-    font-family: Playfair-Display, 'Playfair Display', serif;
+    font-family: Playfair-Display, serif;
     font-size: 30px;
     font-weight: 400;
     color: #626262;
@@ -166,12 +175,12 @@ a {
 }
 
 .content__text_theme_simple {
-    font-family: Playfair-Display, 'Playfair Display', serif;
+    font-family: Playfair-Display, serif;
     font-size: 14px;
     letter-spacing: normal;
 }
 .content__text_theme_italic {
-    font-family: Playfair-Display-italic, 'Playfair Display', serif;
+    font-family: Playfair-Display-italic, serif;
     padding-left: 14px;
     letter-spacing: normal;
 }
@@ -186,7 +195,7 @@ a {
     padding-bottom: 50px;
 }
 .footer__ref {
-    font-family: Playfair-Display, 'Playfair Display', serif;
+    font-family: Playfair-Display, serif;
     font-size: 14px;
     color: #000000;
     text-decoration: none;
@@ -194,17 +203,24 @@ a {
     padding-right: 15px;
 }
 .footer__ref:hover{
-    text-decoration:underline;
+    text-decoration: underline;
 }
 .follow-bar {
-    font-family: Playfair-Display, 'Playfair Display', serif;
+    font-family: Playfair-Display, serif;
     font-size: 14px;
     color: #000000;
     float: right;
 }
+.follow-bar__ref {
+    position: relative;
+}
 .follow-bar__text {
+    
     padding-right: 20px;
 }
 .follow-bar__icon {
     padding-right: 20px;
+}
+.follow-bar__icon:hover {
+    bottom: 5px;
 }
